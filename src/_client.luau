@@ -5,8 +5,8 @@ local RunService = game:GetService("RunService")
 local MarketplaceService = game:GetService("MarketplaceService")
 local Players = game:GetService("Players")
 
-local Prompt = script.Parent:FindFirstChild("prompt")
-local StockConnection = script.Parent:FindFirstChild("stockconnection")
+local Prompt = script.Parent:WaitForChild("prompt", 10) :: RemoteEvent
+local StockConnection = script.Parent:WaitForChild("stockconnection", 10) :: RemoteFunction
 
 local Items = require("./@items")
 
