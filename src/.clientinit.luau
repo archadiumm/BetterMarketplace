@@ -1,5 +1,5 @@
 --!optimize 2
 -- RunContent -> Client
 
-local bm = require("../BetterMarketplace")
+local BM = require("../BetterMarketplace")
 script:Destroy()
