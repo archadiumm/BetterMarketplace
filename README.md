@@ -46,11 +46,11 @@ Located in `BetterMarketplace/@items`
 
      * ```luau
        [ProductName] = {
-		Id = [ProductId],
-		Type = Enum.InfoType.[Product || GamePass],
-		Callback = function(Player: Player)
-			--- [Anything you want here! (or nothing)]
-		end,
+			Id = [ProductId],
+			Type = Enum.InfoType.[Product || GamePass],
+			Callback = function(Player: Player)
+				--- [Anything you want here! (or nothing)]
+			end,
        }
       
 * Anything in [brackets] are things you can replace. Do not keep the brackets.
