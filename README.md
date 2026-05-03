@@ -1,7 +1,17 @@
-# BetterMarketplace [v2.0.0]
+# <div align="center"> BetterMarketplace [v2.0.0] </div>
 A ROBLOX Module that allows you to utilize MarketPlaceService in many better ways!
 [[Download](https://create.roblox.com/store/asset/100403494741460)]
-# Documentation
+
+### Supports:
+* Easier GamePass/DeveloperProduct Prompting (no need to type IDs manually!)
+* Advanced Configuration Settings 
+* Products with Limited Stocks (i.e., 149 Left!) 
+* Gamepass/Product Gifting Built-In 
+* DataStore Item Saving 
+* **..And more!**
+
+# <div align="center"> Documentation </div>
+
 ## Server Usage
 ### `BetterMarketplace.server.prompt`
 **prompt** allows you to prompt the user to buy passes/developer products using 2-3 parameters. 
