@@ -10,7 +10,7 @@ export type Item = {
 }
 
 local Items: {[string]: Item} = {
-	
+	-- Add your items here! Follow the documentation to see what to do!
 }
 
 return Items
