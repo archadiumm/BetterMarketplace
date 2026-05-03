@@ -1,4 +1,4 @@
-# BetterMarketplace [v2]
+# BetterMarketplace [v2.0.0]
 A ROBLOX Module that allows you to utilize MarketPlaceService in many better ways!
 ## Server Usage
 ### `BetterMarketplace.server.prompt`
