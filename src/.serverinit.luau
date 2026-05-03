@@ -1,7 +1,7 @@
 --!optimize 2
 -- RunContent -> Server
 
-local bm = require("../BetterMarketplace")
-bm.server.init()
+local BM = require("../BetterMarketplace")
+BM.server.init()
 
 script:Destroy()
