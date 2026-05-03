@@ -1,5 +1,7 @@
 # BetterMarketplace [v2.0.0]
 A ROBLOX Module that allows you to utilize MarketPlaceService in many better ways!
+[[Download](https://create.roblox.com/store/asset/100403494741460)]
+# Documentation
 ## Server Usage
 ### `BetterMarketplace.server.prompt`
 **prompt** allows you to prompt the user to buy passes/developer products using 2-3 parameters. 
