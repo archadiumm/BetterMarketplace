@@ -8,8 +8,16 @@ local Players = game:GetService("Players")
 local DataStoreService = game:GetService("DataStoreService")
 local DataStore = DataStoreService:GetDataStore("_BetterMarketplace")
 
-local Prompt = script.Parent:FindFirstChild("prompt")
-local StockConnection = script.Parent:FindFirstChild("stockconnection")
+local Prompt: RemoteEvent
+local StockConnection: RemoteFunction
+
+Prompt = Instance.new("RemoteEvent")
+Prompt.Parent = script.Parent
+Prompt.Name = "prompt"
+
+StockConnection = Instance.new("RemoteFunction")
+StockConnection.Parent = script.Parent
+StockConnection.Name = "stockconnection"
 
 local Items = require("./@items")
 local Settings = require("./@settings")
