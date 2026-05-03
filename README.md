@@ -1,6 +1,6 @@
 # <div align="center"> BetterMarketplace [v2.0.0] </div>
 A ROBLOX Module that allows you to utilize MarketPlaceService in many better ways!
-[[Download](https://create.roblox.com/store/asset/100403494741460)]
+[[Download](https://create.roblox.com/store/asset/100470095583172)]
 
 ### Supports:
 * Easier GamePass/DeveloperProduct Prompting (no need to type IDs manually!)
