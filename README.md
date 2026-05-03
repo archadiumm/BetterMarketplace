@@ -33,7 +33,8 @@ A ROBLOX Module that allows you to utilize MarketPlaceService in many better way
  * `connect(Object: TextLabel|TextButton, Text: string, StockName: string, Callback: (number) -> ()?)`
  * **Object** -> Has to be either a TextLabel or a TextButton, as other GuiObjects do not have Text.
  * **Text** -> The unformatted string you want it to update to. For example, putting in *"Current Stock: %s"* will make it show the actual number on a Stock Update (i.e., *"Current Stock: 100"*).
- * 
+ * **StockName** -> This is the name of the Item. So for example, if you want to keep track of the DevProduct named "product"'s Stock, you would just put `BetterMarketplace.client.connect(..., ..., "product", ...)`
+ * **Callback** -> This function fires whenever it recieves a Stock Update for the Item. It also has a `Stock` parameter that you can use, which is why the type is `(number) -> ()`.
 ## Settings
 Located in `BetterMarketplace/@settings`
  * **PassTracker** -> A string directory value of where gamepass data should be stored. It can be formatted by using forward slashes like so: *"Player/Passes"*. If the path does not already exist, it will be created. If you would not to use this, you can set this to **nil**.
