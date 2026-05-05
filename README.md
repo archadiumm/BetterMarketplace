@@ -1,4 +1,4 @@
-# <div align="center"> [BetterMarketplace](https://create.roblox.com/store/asset/100470095583172) [v2.0.0] </div>
+# <div align="center"> [BetterMarketplace](https://create.roblox.com/store/asset/100828867487284) [v2.0.0] </div>
 A ROBLOX Module that allows you to utilize MarketPlaceService in many better ways!
 
 ### Supports:
