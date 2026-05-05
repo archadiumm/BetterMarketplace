@@ -10,9 +10,12 @@ local Client = {}
 local Types = require("@self/_types")
 
 if RunService:IsClient() then
-	script:FindFirstChild("_server"):Destroy()
 	Server = nil
-	Client = require("@self/_client")
+	
+	if script:FindFirstChild("_server") then
+		script:FindFirstChild("_server"):Destroy()
+		Client = require("@self/_client")
+	end
 else
 	Client = nil
 	Server = require("@self/_server")
